@@ -17,8 +17,6 @@ def merge_2sorted_array(a,b):
         last-=1
 
     return a
-
-
 a = [1]
 b= []
 print(merge_2sorted_array(a,b))
