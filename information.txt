@@ -1,0 +1,281 @@
+ 1.input (): This function first takes the input from the user and converts it into a string.
+
+2.comma is used to add the the sentence 
+
+3.DATA TYPES
+    Integer (int):Represents whole numbers without any decimal points.
+    Float Represents numbers with decimal points or in exponential form.
+    String (str) Represents sequences of characters, enclosed in single or double quotes.
+    Boolean (bool):Represents truth values, either True or False.
+    List Represents an ordered collection of items, can contain different data types
+    Tuple Similar to a list, but immutable (cannot be modified once created).
+    Set Represents an unordered collection of unique items.
+    Dictionary (dict) Represents a collection of key-value pairs.
+    NoneType Represents the absence of a value or a null value
+    Complex  Represents complex numbers with a real and imaginary part.
+
+4.In Python, the type() function is used to determine the data type of a given object or variable. 
+
+5.MATH FUNTIONS
+abs(x): Returns the absolute value of x.
+pow(x, y) or x ** y: Raises x to the power of y.
+sqrt(x) or x ** 0.5: Returns the square root of x.
+round(x): Rounds x to the nearest integer.
+min(iterable): Returns the smallest item in an iterable (list, tuple, etc.).
+max(iterable): Returns the largest item in an iterable.
+sum(iterable): Returns the sum of all items in an iterable.
+
+6. variables are used to store and manage data. Here's a brief overview of variables in Python:
+  
+7. python keywords  
+and	A logical operator
+as	To create an alias
+assert	For debugging
+break	To break out of a loop
+class	To define a class
+continue	To continue to the next iteration of a loop
+def	To define a function
+del	To delete an object
+elif	Used in conditional statements, same as else if
+else	Used in conditional statements
+except	Used with exceptions, what to do when an exception occurs
+False	Boolean value, result of comparison operations
+finally	Used with exceptions, a block of code that will be executed no matter if there is an exception or not
+for	To create a for loop
+from	To import specific parts of a module
+global	To declare a global variable
+if	To make a conditional statement
+import	To import a module
+in	To check if a value is present in a list, tuple, etc.
+is	To test if two variables are equal
+lambda	To create an anonymous function
+None	Represents a null value
+nonlocal	To declare a non-local variable
+not	A logical operator
+or	A logical operator
+pass	A null statement, a statement that will do nothing
+raise	To raise an exception
+return	To exit a function and return a value
+True	Boolean value, result of comparison operations
+try	To make a try...except statement
+while	To create a while loop
+with	Used to simplify exception handling
+yield	To return a list of values from a generator
+
+8.Expression:
+An expression is a piece of code that produces a value. It can be a combination of variables, literals, operators, and function calls.
+Statement:
+A statement is a complete line of code that performs an action. It is a higher-level building block than an expression and often involves the execution of one or more expressions. 
+
+9.Augmented assignment operators are shorthand notations in Python that combine an operation with an assignment. They allow you to perform an operation on a variable and update its value in a single step
+
+10. Escape sequence Escape sequences in Python are special sequences of characters that are used to represent certain special characters in strings.
+\n: Represents a newline character.
+\t: Represents a tab character for horizontal spacing.
+\\: Represents a literal backslash.
+\" and \': Represent double and single quotes inside a string.
+\r: Represents a carriage return.
+\b: Represents a backspace.
+\u and \U: Represent Unicode characters.
+
+11.A formatted string in Python, often created using f-strings, allows for the easy inclusion of expressions and variables within a string. It is denoted by placing an 'f' or 'F' prefix before the string.
+
+12. square[] are used to feach the data fromthe variable
+
+13. PYTHON BUILT IN FUNTION
+     print(): Prints the specified value(s) to the console.
+
+input(): Reads a line from the user's input.
+
+len(): Returns the length of an object (e.g., string, list, tuple).
+
+type(): Returns the type of an object.
+
+int(): Converts a number or a string to an integer.
+
+float(): Converts a number or a string to a floating-point number.
+
+str(): Converts an object to a string.
+
+list(): Creates a list from an iterable or converts a string to a list.
+
+tuple(): Creates a tuple from an iterable.
+
+dict(): Creates a dictionary or converts a sequence of key-value pairs to a dictionary.
+
+max(): Returns the largest item in an iterable or the largest of two or more arguments.
+
+min(): Returns the smallest item in an iterable or the smallest of two or more arguments.
+
+sum(): Returns the sum of all items in an iterable.
+
+sorted(): Returns a sorted list from the elements of any iterable.
+
+range(): Generates a sequence of numbers within a specified range.
+
+abs(): Returns the absolute value of a number.
+
+round(): Rounds a number to the nearest integer or a specified number of decimals.
+
+input(): Reads a line from the user's input.
+
+14. LIST METODS
+append()	Adds an element at the end of the list
+clear()	Removes all the elements from the list
+copy()	Returns a copy of the list
+count()	Returns the number of elements with the specified value
+extend()	Add the elements of a list (or any iterable), to the end of the current list
+index()	Returns the index of the first element with the specified value
+insert()	Adds an element at the specified position
+pop()	Removes the element at the specified position
+remove()	Removes the first item with the specified value
+reverse()	Reverses the order of the list
+sort()	Sorts the list
+
+15. List unpacking in Python refers to the process of extracting elements from a list and assigning them to variables. It allows you to easily assign the values of a list to multiple variables in a single line
+
+16. In Python, a dictionary is a collection of key-value pairs, where each key must be unique. It is a mutable and unordered data structure, meaning that the order of elements is not guaranteed.
+
+17. python dictionary METODS
+clear()	Removes all the elements from the dictionary
+copy()	Returns a copy of the dictionary
+fromkeys()	Returns a dictionary with the specified keys and value
+get()	Returns the value of the specified key
+items()	Returns a list containing a tuple for each key value pair
+keys()	Returns a list containing the dictionary's keys
+pop()	Removes the element with the specified key
+popitem()	Removes the last inserted key-value pair
+setdefault()	Returns the value of the specified key. If the key does not exist: insert the key, with the specified value
+update()	Updates the dictionary with the specified key-value pairs
+values()	Returns a list of all the values in the dictionary
+
+18. In Python, a tuple is an ordered and immutable collection of elements. Tuples are defined by enclosing elements in parentheses () and separating them with commas
+     tuple METODS index and cont
+
+19. In Python, a set is an unordered and mutable collection of unique elements. Sets are defined by enclosing elements in curly braces {} and separating them with commas. 
+add()	Adds an element to the set
+clear()	Removes all the elements from the set
+copy()	Returns a copy of the set
+difference()	Returns a set containing the difference between two or more sets
+difference_update()	Removes the items in this set that are also included in another, specified set
+discard()	Remove the specified item
+intersection()	Returns a set, that is the intersection of two or more sets
+intersection_update()	Removes the items in this set that are not present in other, specified set(s)
+isdisjoint()	Returns whether two sets have a intersection or not
+issubset()	Returns whether another set contains this set or not
+issuperset()	Returns whether this set contains another set or not
+pop()	Removes an element from the set
+remove()	Removes the specified element
+symmetric_difference()	Returns a set with the symmetric differences of two sets
+symmetric_difference_update()	inserts the symmetric differences from this set and another
+union()	Return a set containing the union of sets
+update()	Update the set with another set, or any other iterable
+
+20.The if statement is used to test a condition. If the condition is true, the code block inside the if statement is executed. If the condition
+ is false, the code block is skipped.
+
+The if-elif-else statement allows you to test multiple conditions sequentially. It executes the first block of code whose condition is true.
+
+The if-else statement allows you to execute one block of code if the condition is true and another block if the condition is false.
+
+21. Short-circuiting is a behavior in programming languages, including Python, where the evaluation of a logical expression stops as soon as the final result is known.
+ This can happen when using the logical AND (and) and OR (or) operators.
+
+22. the for loop is used for iterating over a sequence (that is either a list, tuple, dictionary, string, or any other iterable). The general syntax of a for loop is as follows:
+   numbers = [1, 2, 3, 4, 5]
+
+for num in numbers:
+    square = num ** 2
+    print(f"The square of {num} is {square}")
+
+# Code outside the loop
+print("Loop complete!")
+
+23.In Python, the range() function is used to generate a sequence of numbers. It's often used in for loops for iterating a specific number of times.
+range([start], stop, [step])
+
+24.In Python, the enumerate() function is used to iterate over a sequence (such as a list, tuple, or string) while keeping track of the index and the corresponding value. 
+It returns pairs of index and value as tuple
+   fruits = ['apple', 'banana', 'cherry']
+for index, value in enumerate(fruits):
+    print(index, value )
+
+25. In Python, a function is a block of organized, reusable code that performs a specific task. Functions provide modularity and help in code reuse. They are defined using the def keyword, followed by the function name, a pair of parentheses
+ containing optional parameters, and a colon. The function body is indented and contains the code that is executed when the function is called.
+def function_name(parameter1, parameter2, ...):
+    # Function body
+    # Code to perform a specific task
+    # ...
+    return result  # Optional: Return a value
+
+26.''' it is used to define the fintion what it will do'''('''''')
+
+27.The walrus operator (:=) is an assignment expression introduced in Python 3.8. It allows you to assign a value to a variable as part of an expression. The primary use case is to eliminate redundancy and improve the readability of code,
+ especially in situations where a value is computed and then used in an if statement or a loop.
+
+28.Object-Oriented Programming (OOP) is a programming paradigm that revolves around the concept of "objects," which are instances of classes. It is a way of organizing and designing code to promote modularity, reusability,
+ and maintainability. In OOP, software design is based on the following fundamental principles:
+
+Objects: Objects are instances of classes and represent real-world entities. They encapsulate data (attributes) and the functions (methods) that operate on that data.
+
+Classes: Classes are blueprints or templates for creating objects. They define the structure and behavior that objects created from the class will have. A class serves as a blueprint for creating multiple objects with similar characteristics.
+
+Encapsulation: Encapsulation is the bundling of data and methods that operate on that data into a single unit (class). It hides the internal details of how an object's data is implemented and allows access only through well-defined 
+interfaces (methods).
+
+Inheritance: Inheritance is the ability of a class to inherit properties and methods from another class. It promotes code reuse and the creation of a hierarchy of classes. A subclass can inherit attributes and behaviors from a superclass
+ and can also extend or override them.
+
+Polymorphism: Polymorphism means "many forms." It allows objects of different classes to be treated as objects of a common base class. Polymorphism enables a single interface to represent different types of objects and allows functions to work with objects
+ of various classes through a common interface.
+
+29. In Python, __init__ is a special method (also known as a dunder or magic method) used for initializing the attributes of an object when it is created.
+  The full name of the method is the "double underscore init double underscore," hence the abbreviation __init__.
+  class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+# Creating an instance of the Dog class
+my_dog = Dog(name="Buddy", age=3)
+
+# Accessing attributes
+print(my_dog.name)  # Output: Buddy
+print(my_dog.age)   # Output: 3
+
+30 In Python, super() is a built-in function that is commonly used in the context of inheritance and object-oriented programming. It is used to call a method from the parent class within a subclass. The super() function is particularly useful \
+when you want to extend the behavior of a method defined in the parent class without completely replacing it.
+class ChildClass(ParentClass):
+    def some_method(self, arg1, arg2, ...):
+        # Do something specific in the subclass
+
+        # Call the same method from the parent class using super()
+        super().some_method(arg1, arg2, ...)
+31 MRO stands for Method Resolution Order, and it is a crucial concept in Python's inheritance mechanism, especially in the context of multiple inheritance. The MRO defines the order in which classes are
+ searched when a method is called on an instance. It plays a crucial role in determining which version of a method is invoked when dealing with classes that inherit from multiple parent classes.
+
+32Functional programming is a programming paradigm that treats computation as the evaluation of mathematical functions and avoids changing-state and mutable data. In functional programming, functions are 
+first-class citizens, meaning they can be assigned to variables, passed as arguments, and returned as values from other functions. It encourages immutability, meaning once a piece of data is created, it cannot be changed.
+
+33 map applies a given function to all items in an input list (or other iterable) and returns an iterator that produces the results
+syntax map(function, iterable)
+
+34 The filter function in Python is another built-in function that is used to filter elements from an iterable (e.g., list, tuple) based on a specified condition. It returns an iterator containing only the elements for which
+ the given function returns True.
+
+36 The zip function in Python is a built-in function that takes two or more iterables as arguments and returns an iterator that generates tuples containing elements from the input iterables. It stops creating tuples when the 
+shortest input iterable is exhausted.
+
+37 The reduce function in Python is a part of the functools module and is used to apply a specified function cumulatively to the items of an iterable. It takes two arguments: the function to apply and the iterable.
+
+38A lambda function in Python, also known as an anonymous function or a lambda expression, is a concise way to create small, unnamed functions. Lambda functions are defined using the lambda keyword, and they can take any number
+ of arguments but can only have one expression.
+
+39 List comprehension is a concise and readable way to create lists in Python. It provides a compact syntax for creating a list by specifying the expression to evaluate for each item and the iterable to iterate over. List comprehensions
+ are a Pythonic way to replace traditional loops when creating lists.
+ # Using list comprehension to create a list of squares
+numbers = [1, 2, 3, 4, 5]
+squared_numbers = [x**2 for x in numbers]
+
+# Print the result
+print(squared_numbers)
