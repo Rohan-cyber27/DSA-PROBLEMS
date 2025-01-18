@@ -26,7 +26,7 @@ def rotate_inplace(arr,d):
     return arr
     
 arr1=  [7, 3, 9, 1]
-d1 = 3
+d1 = 2
 
 
 print(rotate_inplace(arr1,d1))
